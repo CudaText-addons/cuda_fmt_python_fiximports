@@ -1,11 +1,11 @@
 import os
 from cudatext import ed, ini_read
-from cuda_fmt import format_proc
+from cuda_fmt import get_config_filename
 from .fiximports import FixImports
 
 def do_fix_imports(text):
 
-    fn = format_proc.ini_filename('cuda_python_fix_imports.ini')
+    fn = get_config_filename('Python Fix Imports')
     section = 'op'
     op_split = ini_read(fn, section, 'split_import_statements', '1')=='1'
     op_sort = ini_read(fn, section, 'sort_import_statements', '1')=='1'
