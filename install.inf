@@ -3,6 +3,7 @@ title=Formatter for Python: Fix Imports
 desc=Checks and sorts import statement in current Python file (based on fiximports.py script)
 type=cudatext-plugin
 subdir=cuda_fmt_python_fiximports
+homepage=https://github.com/CudaText-addons/cuda_fmt_python_fiximports
 
 [fmt1]
 caption=Python Fix Imports
