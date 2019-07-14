@@ -1,6 +1,6 @@
 [info]
 title=Formatter for Python: Fix Imports
-desc=Checks and sorts import statement in current Python file (based on fiximports.py script)
+desc=Checks and sorts import statement in Python file
 type=cudatext-plugin
 subdir=cuda_fmt_python_fiximports
 homepage=https://github.com/CudaText-addons/cuda_fmt_python_fiximports
@@ -9,4 +9,5 @@ homepage=https://github.com/CudaText-addons/cuda_fmt_python_fiximports
 caption=Python Fix Imports
 method=do_fix_imports
 lexers=Python
-config=cuda_python_fix_imports.ini
+config=cuda_fmt_python_fiximports.ini
+force_all=1

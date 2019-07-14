@@ -1,3 +1,7 @@
 
+2019.07.14
+* change config filename
+- fix formatting passive editors
+
 2019.07.08
 initial version
